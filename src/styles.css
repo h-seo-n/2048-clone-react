@@ -5,6 +5,11 @@
 
 * { box-sizing: border-box; }
 
+#root {
+    background-color: #e7decf;
+    height: 100vh;
+}
+
 .app {
     display: flex;
     flex-direction: column;

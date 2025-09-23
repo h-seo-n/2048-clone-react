@@ -211,6 +211,7 @@ export default function App() {
 
   return (
     <div className="app">
+      <h1>Play 2048!</h1>
       <header className="header-flex-row">
         <div className="score-best-container">
           <div className="score-container">Score {score}</div>
