@@ -5,11 +5,11 @@ export function emptyGrid(): Grid {
   return Array.from({ length: SIZE }, () => Array(SIZE).fill(0));
 }
 
-export function cloneGrid(g: Grid): Grid {
+function cloneGrid(g: Grid): Grid {
   return g.map((row) => row.slice());
 }
 
-export function getEmptyCells(g: Grid) {
+function getEmptyCells(g: Grid) {
   const cells: { r: number; c: number }[] = [];
   for (let r = 0; r < SIZE; r++) {
     for (let c = 0; c < SIZE; c++) {
